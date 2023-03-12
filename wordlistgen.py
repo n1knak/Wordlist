@@ -1,6 +1,18 @@
+#########################
+#### Working Version ####
+#########################
+# If editing in the future, please change the verison number and final print statement (line number statement) accordingly.
+# idk if this actually works as CeWL does or not, but I got tired of waiting an hour for CeWL to make a simple wordlist.
+print("##################################################")
+print("#### ECPI University's NCL Wordlist Generator ####")
+print("##################################################")
+print("Created by saintnik")
+print("Version 1.0.2\n")
+print("Make sure that you go into your C drive and create a file called 'Wordlists'")
+print("If you do not have the file C:\Wordlists, modify the code on line 60 for your desired output\n")
+
 import os
 import re
-
 
 def generate_wordlist(data, min_length=3, max_length=15, include_numbers=True):
     # extract words using regular expression
